@@ -22,6 +22,12 @@ public class SpringJenkinsApplication {
 	public static void main(String[] args) {
 		logger.info("Application executed...");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
+		for(int i=1;i<=10;i++)
+			System.out.println(i);
+		for(int i=1;i<=10;i++)
+			System.out.println(i);
+		
+		
 	}
 
 }
